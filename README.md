@@ -1,29 +1,22 @@
-# Node Authentication API
+# MEANauthapp
 
-API for registering users with mongodb and authentication using a JWT (json web token). This app uses passport and passport-jwt and uses a JWT strategy
+Complete MEAN stack application with authentication using json web tokens
 
 ### Version
 1.0.0
 
 ## Usage
 
-```bash
-npm install
-```
 
-```bash
-npm start
-```
+### Installation
 
-##Endpoints
-```bash
-POST /users/register
-```
+Install the dependencies
 
-```bash
-POST /users/authenticate   // Gives back a token
+```sh
+$ npm install
 ```
+Run app
 
-```bash
-GET /users/profile         // Needs json web token to authorize
+```sh
+$ npm start
 ```
